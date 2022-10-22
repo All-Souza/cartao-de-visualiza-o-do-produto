@@ -6,22 +6,20 @@
   font-family: 'Red Hat Display';
 
 }
-
+ 
 body{
    display: flex;
    background-color:hsl(225, 100%, 94%);
    box-sizing: border-box;
    justify-content: center;
-   
-
-
-
+   background-image: url(./images/pattern-background-desktop.svg);
+   background-repeat: no-repeat;
+   background-size: 160rem;
 
 }
 
 
 .card{
-
     height: 45rem;
     width: 28.1rem;    
     flex-direction: column;
@@ -31,11 +29,6 @@ body{
     text-align: center;    
     box-sizing: border-box;
     border-radius: 1rem;
-
-
-
-
-
 
 }
 .plano {
@@ -48,8 +41,6 @@ body{
     flex-direction: baseline;
     box-sizing: border-box;
    
-
-
 }
 
 .troca {
@@ -63,17 +54,17 @@ body{
     font-size: 1.2rem;
     border-color: white;
     border: none;
-    
-
+    cursor: pointer;   
 
 
 
 }
 
+
+
 .preco {
     margin-right: 1.9rem;
     font-weight: bold;
-
       
 }
 
@@ -88,10 +79,7 @@ h1 {
     font-weight: bolder;
     margin: 1rem ;
     margin-bottom: 1,5rem;
-    color: hsl(223, 47%, 23%);
-
-    
-
+    color: hsl(223, 47%, 23%);  
 
 }
 
@@ -100,29 +88,19 @@ p1 {
     font-size: 1.3rem;
     color:hsl(224, 23%, 55%);
 
-
 }
 
 h2 {
-    color:hsl(223, 47%, 23%);   
-   
-   
-
+    color:hsl(223, 47%, 23%);     
 
 }
+
 p2{
     position: relative;
     font-size: 1.4rem;
-    color:hsl(224, 23%, 55%);
-    
-    
-    
-
+    color:hsl(224, 23%, 55%); 
 
 }
-
-
- 
 
 
 .botao {
@@ -136,7 +114,6 @@ p2{
     background-color: white;
     margin-left: 1.8rem;
 
-
 }
 
 .pagamento{
@@ -149,11 +126,14 @@ p2{
     color: white;
     background-color: hsl(245, 75%, 52%);
     margin-bottom: 1rem;
-    border: none;
-    
+    border: none;   
 
+}
 
-
+.pagamento:hover {
+    background-color: white;
+    color: hsl(245, 75%, 52%);
+    cursor: pointer;
 
 }
 
@@ -167,9 +147,16 @@ p2{
     border-radius: 0.89rem;
     color:hsl(224, 23%, 55%);
     border: none;
-  
+    cursor: pointer;  
 
 }
+
+
+
+
+
+
+ 
 
 
 
