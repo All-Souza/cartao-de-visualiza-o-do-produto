@@ -18,7 +18,6 @@ body{
 
 }
 
-
 .card{
     height: 45rem;
     width: 28.1rem;    
@@ -31,6 +30,7 @@ body{
     border-radius: 1rem;
 
 }
+
 .plano {
     display: flex;
     height: 3.5rem;
@@ -54,21 +54,15 @@ body{
     font-size: 1.2rem;
     border-color: white;
     border: none;
-    cursor: pointer;   
-
-
+    cursor: pointer;  
 
 }
-
-
 
 .preco {
     margin-right: 1.9rem;
     font-weight: bold;
       
 }
-
-
 
 img {
     border-radius: 1rem 1rem 0rem 0rem;
@@ -101,7 +95,6 @@ p2{
     color:hsl(224, 23%, 55%); 
 
 }
-
 
 .botao {
     display: flex;
@@ -150,6 +143,7 @@ p2{
     cursor: pointer;  
 
 }
+
 
 
 
